@@ -1,0 +1,454 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #ffffff;
+  --primary-color-dark: #222124;
+  --secondary-color: #00df63;
+  --text-dark: #1f2937;
+  --text-light: #3f4751;
+  --extra-light: #faf5ff;
+  --max-width: 1200px;
+  --text-dark: #171717;
+  --text-white: #E2E5E9;
+  --bg-color: #93efbc;
+}
+
+body {
+  font-family: "AvertaStd", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+h2 strong {
+  background-image: linear-gradient(to left, var(--bg-color), transparent), linear-gradient(to left, var(--primary-color), var(--primary-color));
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+  border-radius: .56em;
+}
+
+.flex-spacer {
+  flex-grow: 1;
+}
+
+/* Start Navigation */
+.navbar-expand-lg {
+  top: 0;
+  z-index: 10;
+  background-color: var(--secondary-color);
+}
+
+.navbar-brand {
+  margin-left: 40px;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 80px;
+}
+
+.collapse {
+  justify-content: space-evenly;
+}
+
+.navbar-nav {
+  margin-left: 200px;
+}
+
+#navbarNav .nav-item .nav-link {
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--primary-color-dark);
+}
+
+#navbarNav .nav-item .nav-link:hover {
+  color: var(--extra-light);
+  border-bottom: 1px solid var(--extra-light);
+}
+
+#navbarNav .btn-secondary {
+  margin-left: 250px;
+  padding: 10px 40px 10px 40px;
+  font-weight: bold;
+  font-size: 13px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: var(--primary-color-dark);
+}
+
+#navbarNav .btn-secondary:hover {
+  background-color: var(--secondary-color);
+
+}
+
+/* End Navigation section */
+
+
+/*Hero Section */
+.py-4 {
+  background-image: url(images/indrajaal.webp);
+  background-position: center;
+  height: 80vh;
+  background-size: cover;
+}
+
+.py-4 .col-12 h2 {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.text-md-start span {
+  font-size: 1.1em;
+  font-weight: bold;
+  color: white;
+  margin-top: 35px;
+
+}
+
+.d-grid .btn {
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 12px 40px 12px 40px;
+  font-weight: bold;
+  font-size: 13px;
+  margin-top: 30px;
+
+}
+
+/* Start Overview */
+.overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.overview a {
+  text-decoration: none;
+  color: rgb(43, 42, 42);
+  font-size: 14px;
+}
+
+.overview .link1 {
+  margin-right: 7%;
+}
+
+.overview .link3 {
+  margin-left: 7%;
+}
+
+.section__container {
+  margin: 80px;
+  margin-top: 100px;
+  display: flex;
+}
+
+.content {
+  min-width: 39.25rem;
+}
+
+.content h2 {
+  margin-left: 40px;
+  color: #0b0c0b;
+}
+
+.content h2 strong {
+  background-image: linear-gradient(to left, var(--bg-color), transparent), linear-gradient(to left, var(--primary-color), var(--primary-color));
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+  border-radius: .55em;
+}
+
+.rich-text {
+  margin-left: 200px;
+  font-size: 18px;
+  word-spacing: 3px;
+  color: var(--text-light);
+  word-break: normal;
+}
+
+
+/* Details Services */
+.details-service {
+  top: 0;
+  background: white;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+}
+
+.details-service .left {
+  margin-left: 160px;
+}
+
+.details-service .left img {
+  width: 600px;
+}
+
+.details-service .right {
+  margin-left: 150px;
+  margin-right: 140px;
+}
+
+.details-service .right h2 {
+  margin-bottom: 45px;
+}
+
+.details-service .right h2 strong {
+  background-image: linear-gradient(to left, var(--bg-color), transparent), linear-gradient(to left, var(--primary-color), var(--primary-color));
+  background-position: left center, right center;
+  background-repeat: no-repeat;
+  border-radius: .56em;
+}
+
+.details-service .right .text {
+  font-weight: bold;
+  word-spacing: 2px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.details-service .right ul li {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: var(--text-light);
+  word-spacing: 1px;
+  font-weight: 500;
+}
+
+.right ul li::marker {
+  color: var(--secondary-color);
+}
+
+.details-service .right p {
+  word-spacing: 2px;
+
+}
+
+/* Card section */
+
+.card-section {
+  margin-top: 80px;
+  background-color: #f2f5f7;
+  padding-bottom: 100px;
+}
+
+.card-section h2 strong {
+  background-image: linear-gradient(to right, var(--bg-color), transparent), linear-gradient(to right, var(--primary-color), var(--primary-color));
+  background-position: right center, left center;
+}
+
+.sectiontext {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.big-heading {
+  margin-left: 150px;
+}
+
+.big-paragraph {
+  width: 700px;
+  margin-left: 200px;
+  margin-right: 140px;
+  font-size: 20px;
+  word-spacing: 2px;
+  color: var(--text-light);
+}
+
+.card-container {
+  /* display: flex; */
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.card {
+  height: 22em;
+}
+
+.card-container .card {
+  position: relative;
+  width: 30%;
+  display: inline-block;
+}
+
+.card-container .card:nth-child(3n + 1) {
+  top: 0;
+}
+
+.card-container .card:nth-child(3n + 2) {
+  top: 5rem;
+}
+
+.card-container .card:nth-child(3n + 3) {
+  top: 10rem;
+}
+
+.crd {
+  margin-left: 45px;
+}
+
+.crd1 {
+  margin-top: 60px;
+}
+
+.crd2 {
+  margin-top: 120px;
+}
+.crd4{
+  margin-left: 45px;
+  margin-top: 60px;
+}
+
+.card-body img {
+  margin-top: 40px;
+  margin-left: 12px;
+}
+
+.card-body p {
+  margin-top: 20px;
+  margin-left: 10px;
+  color: var(--text-light);
+}
+
+.schedule-link {
+  margin-top: 100px;
+  text-align: right;
+  margin-right: 120px;
+  font-size: 18px;
+}
+
+.schedule-link a {
+  color: var(--primary-color-dark);
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+
+/* Second card section */
+.card-section-second {
+  display: flex;
+  margin: 150px;
+}
+
+.card-section-second .card {
+  background-color: #f2f5f7;
+  border: none;
+  height: 18em;
+  width: 100%;
+}
+
+.num-card1 {
+  margin-left: 40px;
+  margin-top: 60px;
+}
+
+.num-card2 {
+  margin-left: 40px;
+  margin-top: 120px;
+}
+
+.num-card3 {
+  margin-left: 40px;
+  margin-top: 180px;
+}
+
+.card-section-second h5 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.card-section-second p {
+  font-size: 18px;
+  color: var(--text-light);
+}
+
+.card-section-second .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.second-service {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #f2f5f7;
+}
+
+.second-service .container {
+  display: flex;
+}
+
+.second-service .right-text {
+  /* margin-left: 150px;
+  margin-right: 80px;
+  width: 700px; */
+}
+
+.right-text h2 {
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 50px;
+  width: 430px;
+}
+
+b {
+  color: var(--primary-color-dark);
+}
+
+.right-text .text {
+  width: 430px;
+}
+
+.right-text p {
+  font-size: 17px;
+  color: var(--text-light);
+  margin-top: 50px;
+}
+
+.read-link {
+  margin-top: 140px;
+}
+
+.read-link a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color-dark);
+  border-bottom: 1px solid black;
+}
+
+.third-service {
+  display: flex;
+  margin-top: 100px;
+  padding-bottom: 80px;
+}
+
+.third-service .ADN-img img {
+  width: 700px;
+}
+
+.ADN-text h2 {
+  font-weight: 600;
+  font-size: 2em;
+  margin-bottom: 50px;
+  width: 500px;
+  margin-left: 85px;
+}
+
+.third-service .ADN-text p {
+  width: 500px;
+  margin-left: 80px;
+  margin-top: 40px;
+  font-size: 17px;
+  word-spacing: 1px;
+  color: var(--text-light);
+}
+
+.ADN-text .read-link {
+  margin-left: 85px;
+  margin-top: 100px;
+}

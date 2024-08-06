@@ -1,0 +1,275 @@
+@media (max-width:380px) {
+  .big-heading {
+    margin-left: 20px;
+  }
+
+  .big-paragraph {
+    margin: 40px 100px 30px 2dvb;
+    word-spacing: 1px;
+  }
+  
+  .second-service {
+    display: flex;
+  }
+}
+@media (max-width:767px){
+  .py-4{
+    height: 54vh;
+  }
+
+  .navbar-nav {
+    margin-left: 0px;
+  }
+  .navbar-collapse {
+
+  }
+  .py-4 .col-12 h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+
+  .text-md-start span {
+    font-size: 1em;
+  }
+
+  .second-service{
+    display: block;
+  }
+  
+  .second-service .right-text{
+    /* margin-left: 10px;
+    margin-right: 0px; */
+  }
+  .read-link {
+    margin-top: 40px;
+  }
+  .right-text h2{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+    width: 280px;
+  }
+  .right-text .text{
+    width: 300px;
+  }
+  .right-text p{
+    font-size: 17px;
+    margin-top: 50px;
+  }
+  .read-link {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  .section__container {
+    display: block;
+    margin: 20px;
+    margin-top: 100px;
+  }
+  
+  .content {
+    min-width: unset !important;
+  }
+  
+  .content h2 {
+    margin-left: 0px;
+  }
+
+  .rich-text {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+}
+
+
+@media (max-width:1080px) {
+
+  .navbar-brand {
+    margin-left: 0px;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    height: 80px;
+  }
+
+  .collapse {
+    justify-content: space-evenly;
+  }
+
+  .navbar-nav {
+    margin-left: 20px;
+  }
+
+  #navbarNav .nav-item {
+    margin-top: 30px;
+  }
+
+  #navbarNav .nav-item .nav-link {
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  #navbarNav .btn-secondary {
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  #navbarNav .btn-secondary:hover {
+    color: var(--primary-color-dark);
+    background-color: var(--secondary-color);
+  }
+
+  .details-service {
+    top: 0;
+    margin-top: 80px;
+    display: block;
+  }
+
+  .details-service .left {
+    margin-left: 0px;
+  }
+
+  .details-service .left img {
+    width: 100%;
+  }
+
+  .details-service .right {
+    margin-left: 15px;
+    margin-right: 14px;
+  }
+
+  .details-service .right h2 {
+    margin-bottom: 40px;
+  }
+
+  .details-service .right .text {
+    word-spacing: 1px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  }
+
+  .details-service .right ul li {
+    font-size: 15px;
+    margin-bottom: 18px;
+  }
+
+  .details-service .right p {
+    word-spacing: 1px;
+    font-size: 14px;
+
+  }
+  
+  .sectiontext {
+    display: block;
+  }
+
+  .big-heading {
+    margin-left: 10px;
+  }
+
+  .card {
+    height: 20em;
+  }
+
+  .crd, .crd4 {
+    margin-left: 0px;
+  }
+
+  .card-section-second{
+    display: block;
+    margin: 50px 0px 100px 0px;
+  }
+  .num-card1, .num-card2, .num-card3{
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .schedule-link {
+    text-align: center;
+  }
+  .schedule-link {
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  .card-container {
+    /* display: flex; */
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .card-container .card {
+    width: 100%;
+    display: block;
+  }
+
+  .crd1, .crd4 {
+    margin-top: 30px;
+  }
+  
+  .crd2 {
+    margin-top: 60px;
+  }
+  .crd3{
+    margin-top: 90px;
+  }
+
+  .card-container .card:nth-child(3n + 2) {
+    top: 2rem;
+  }
+  
+  .card-container .card:nth-child(3n + 3) {
+    top: 2rem;
+  }
+}
+
+@media (max-width:1280px) {
+  .section__container {
+    display: block;
+    margin: 20px;
+    margin-top: 100px;
+  }
+  .rich-text{
+    margin-left: 0px;
+  }
+  
+  .details-service {
+    display: block;
+  }
+  
+  .big-paragraph {
+    width: 100%;
+    margin-left:10px;
+    margin-right: 40px;
+    font-size: 18px;
+  }
+  .left-img img{
+    width: 100%;
+  }
+  .third-service .ADN-img img {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .ADN-text h2 {
+    font-weight: 600;
+    font-size: 1.5em;
+    width: 100%;
+    margin: 20px 0px 50px 0px;
+  }
+  .third-service .ADN-text p {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .ADN-text .read-link {
+    margin-left: 10px;
+    margin-top: 40px;
+  }
+  .third-service{
+    margin-right: 0px;
+    display: block;
+    padding-bottom: 10px;
+  }
+}
+
+
