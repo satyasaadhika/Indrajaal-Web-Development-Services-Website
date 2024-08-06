@@ -220,6 +220,46 @@
   .card-container .card:nth-child(3n + 3) {
     top: 2rem;
   }
+
+  .feq h2{
+    margin-top: 20px;
+  }
+  .feq p{
+   margin-left: 0px;
+   margin-top: 30px;
+   margin-bottom:50px;
+   width:100%;
+  }
+  .feq-content {
+    margin-right: 0px;
+  }
+ 
+  .question h5{
+    font-size: 17px;
+  }
+  .question span{ 
+    font-size: 1.60em;
+    font-weight: 500;
+  }
+  .plus1{
+  margin-left: 280px;
+  }
+  .plus2{
+    margin-left: 280px;
+  }
+  .plus3{
+    margin-left: 280px;
+  }
+  .plus4{
+    margin-left: 280px;
+  }
+  .answer h6{
+    margin-top: 20px;  
+  }
+  .answer p{
+    margin-top: 20px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width:1280px) {
