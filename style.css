@@ -382,12 +382,6 @@ h2 strong {
   display: flex;
 }
 
-.second-service .right-text {
-  /* margin-left: 150px;
-  margin-right: 80px;
-  width: 700px; */
-}
-
 .right-text h2 {
   font-weight: 600;
   font-size: 2em;
