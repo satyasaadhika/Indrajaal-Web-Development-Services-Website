@@ -15,7 +15,9 @@
   --text-white: #E2E5E9;
   --bg-color: #93efbc;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "AvertaStd", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
