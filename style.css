@@ -549,7 +549,49 @@ form .btn{
 }
 
 form .btn:hover{
-  background-color: #8ae8b4;
+  background-color: var(--bg-color);
+}
+
+/* Footer section */
+
+footer {
+  background-color:#f2f5f7;
+  padding-top: 80px;
+}
+.col-md-3 h5 {
+  color: black;
+  font-weight: 600;
+}
+
+.col-md-3 p{
+  margin-right: 60px;
+}
+.col-md-3 p,
+.footer-links a {
+  color: var(--text-light);
+}
+
+.footer-links i{
+  color: var(--text-light);
+  font-size: 1.65em;
+  margin-top: 20px;
+}
+.footer-links i:hover{
+  color: var(--secondary-color);
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.footer hr {
+  background-color: var(--text-light);
+}
+.footer span{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color-dark);
 }
 
 
