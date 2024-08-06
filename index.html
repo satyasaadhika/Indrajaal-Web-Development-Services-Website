@@ -272,12 +272,12 @@
     <!-- Frequently questions Section -->
     <section class="section1">
       <div class="section__container">
-        <header class="content feq">
+        <header class="content faq">
           <h2 class=" title"> Frequently asked <strong>questions</strong></h2>
           <p>The most common queries about the web development process</p>
         </header>
-        <section class="feq-content">
-          <article class="feq-item">
+        <section class="faq-content">
+          <article class="faq-item">
             <header class="question"onclick="toggleAnswer(this)">
               <h5>What does the Indrajaal research process involve?<span class="plus1">+</span></h5>
             </header>
@@ -287,7 +287,7 @@
             </div>
           </article>
 
-          <article class="feq-item">
+          <article class="faq-item">
             <header class="question"onclick="toggleAnswer(this)">
               <h5>How can I optimize a web app for SEO?<span class="plus2">+</span></h5>
             </header>
@@ -298,8 +298,8 @@
             </div>
           </article>
 
-          <article class="feq-item">
-            <header class="question"onclick="toggleAnswer(this)">
+          <article class="faq-item">
+            <header class="question" onclick="toggleAnswer(this)">
               <h5>How to prepare before partnering with a web development company?<span class="plus3">+</span></h5>
             </header>
             <div class="answer">
@@ -314,8 +314,8 @@
             </div>
           </article>
 
-          <article class="feq-item">
-            <header class="question"onclick="toggleAnswer(this)">
+          <article class="faq-item">
+            <header class="question"onclick=" toggleAnswer(this)">
               <h5>How long does a web development project <br> take to complete from start to finish?<span class="plus4">+</span></h5>
             </header>
             <div class="answer">
@@ -327,6 +327,67 @@
       </div>
     </section>
 
+
+    <section class="contract">
+      <section class="section">
+        <div class="section__container">
+          <div class="content">
+            <h2 class=" title"> Looking for<strong>web development services?</strong></h2>
+          </div>
+          <div class="rich-text last-text">
+            <p>Before we start, we would like to better understand your needs. We'll review your application and schedule a free estimation call.</p>
+          </div>
+        </div>
+      </section>
+
+      <form>
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <label for="name" class="form-label">First Name*</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="col-md-4">
+                <label for="name" class="form-label">Last Name*</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="col-md-4">
+                <label for="email" class="form-label">Email*</label>
+                <input type="email" class="form-control" id="email" >
+            </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-4">
+              <label for="phone" class="form-label">Phone Number*</label>
+              <input type="tel" class="form-control" id="phone" required>
+          </div>
+          <div class="col-md-4">
+              <label for="name" class="form-label">Company Name*</label>
+              <input type="text" class="form-control" id="text"required>
+          </div>
+          <div class="col-md-4">
+              <label for="name" class="form-label">How did you hear about us?*</label>
+              <input type="text" class="form-control" id="name" >
+          </div>
+      </div>
+        <div class="row mb-3">
+            <div class="col-md-8">
+                <label for="message" class="form-label">Tell us more about your project*</label>
+                <textarea class="form-control" id="message" rows="4"  required></textarea>
+            </div>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              I agree to receive marketing communication from Indrajaal.
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn col-md-8">Request Free Estimate</button>
+    </form>
+    </section>
 
   </main>
   <footer id="target"></footer>
