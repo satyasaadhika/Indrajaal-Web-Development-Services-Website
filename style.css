@@ -449,69 +449,54 @@ b {
 }
 
 /* Frequently questions Section */
-.section1{
+.accordion{
+  display: flex;
   background-color: #f2f5f7;
-  padding-top: 80px;
-  padding-bottom: 20px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
-.faq h2{
-  margin-top: 100px;
-}
-.faq p{
- margin-left: 20px;
- font-size: 18px;
- color: var(--text-light);
- margin-top: 50px;
- width: 500px;
-}
-.faq-content {
-  margin-right: 80px;
-}
-.faq-content .faq-item{
-  background-color: white;
-  padding-top: 50px;
-  padding:30px 10px 30px 20px;
-  border: 2px solid var(--primary-color);
-  margin-bottom: 60px;
-}
-
-.question h5{
-  color: black;
-  font-size: 18px;
-  font-weight:600;
-}
-.question span{ 
-  font-size: 1.80em;
-  font-weight: 500;
-}
-.plus1{
-margin-left: 180px;
-}
-.plus2{
-  margin-left: 265px;
-}
-.plus3{
-  margin-left: 18px;
-}
-.plus4{
-  margin-left: 285px;
-}
-.answer h6{
-  margin-top: 40px;
-  color: black;
-  font-weight: bold;
-  word-spacing: 0.70px;
-
-}
-.answer p{
+.content p{
   color: var(--text-light);
+  font-size: 18px;
+  width: 25em;
   margin-top: 40px;
-  font-size: 17px;
+  margin-left: 20px;
 }
+#accordionExample .accordion-item{
+  margin-bottom: 50px;
+  border: none;
+}
+
+#headingOne .accordion-button,
+#headingTwo .accordion-button,
+#headingThree .accordion-button,
+#headingFour .accordion-button
+{
+  color: black ;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.accordion-body p{
+  margin-top: 30px;
+  color: var(--text-light);
+}
+.accordion-body h6{
+  margin-top: 30px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
 
 /* Form section */
 .last-text{
   width: 500px;
+  margin-left: 200px;
+  font-size: 19px;
+  color: var(--text-light);
 }
 form{
   margin: 50px 150px 50px 150px;
@@ -562,9 +547,9 @@ footer {
   color: black;
   font-weight: 600;
 }
-
-.col-md-3 p{
-  margin-right: 60px;
+.col-md-3{
+  padding-top:10px ;
+  padding-bottom: 50px;
 }
 .col-md-3 p,
 .footer-links a {
@@ -585,14 +570,12 @@ footer {
   color: var(--secondary-color);
 }
 
-.footer hr {
-  background-color: var(--text-light);
-}
 .footer span{
   font-size: 16px;
   font-weight: 600;
   color: var(--primary-color-dark);
 }
+
 
 
 

@@ -42,6 +42,17 @@
   .second-service .container {
     flex-direction: column-reverse;
   }
+
+  .content p{
+    margin-top: 30px;
+    margin-left: 0px;
+    width: 17em;
+  }
+  .last-text{
+    width: 290px;
+    margin-left: 0px;
+    font-size: 17px;
+  }
   
   .read-link {
     margin-top: 40px;
@@ -145,6 +156,7 @@
     width: 100%;
   }
 
+
   .details-service .right {
     margin-left: 15px;
     margin-right: 14px;
@@ -232,48 +244,9 @@
   .card-container .card:nth-child(3n + 3) {
     top: 2rem;
   }
-
-  .feq h2{
-    margin-top: 10px;
-  }
-  .faq p {
-    margin-left: 0px;
-    margin-top: 40px;
-    width: 400px;
-  }
-  .feq-content {
-    margin-right: 0px;
-  }
- 
-  .question h5{
-    font-size: 17px;
-  }
-  .question span{ 
-    font-size: 1.60em;
-    font-weight: 500;
-  }
-  .plus1{
-  margin-left: 280px;
-  }
-  .plus2{
-    margin-left: 280px;
-  }
-  .plus3{
-    margin-left: 280px;
-  }
-  .plus4{
-    margin-left: 280px;
-  }
-  .answer h6{
-    margin-top: 20px;  
-  }
-  .answer p{
-    margin-top: 20px;
-    font-size: 16px;
-  }
-
-  .last-text{
-    width: 375px;
+  .accordion{
+    display: block;
+    padding-top: 30px;
   }
   form{
     margin: 30px 0px 30px 00px;
@@ -304,10 +277,15 @@
   }
   
   .big-paragraph {
-    width: 27em;
-    margin-left:10px;
-    margin-right: 40px;
+    width: 100%;
+    margin-left:0px;
     font-size: 17px;
+  }
+  .last-text {
+    width: 600px;
+    margin-left: 20px;
+    font-size: 19px;
+    color: var(--text-light);
   }
   .left-img img{
     width: 100%;
