@@ -92,7 +92,7 @@
       <a href="#">Overview</a>
       <a class="link3" href="#">Approach</a>
     </section>
-
+<!-- Content Section -->
     <section class="section">
       <div class="section__container">
         <div class="content">
@@ -270,77 +270,94 @@
     </section>
 
     <!-- Frequently questions Section -->
-    <section class="section1">
+    <div class="accordion" id="accordionExample">
       <div class="section__container">
-        <header class="content faq">
+        <header class="content">
           <h2 class=" title"> Frequently asked <strong>questions</strong></h2>
           <p>The most common queries about the web development process</p>
         </header>
-        <section class="faq-content">
-          <article class="faq-item">
-            <header class="question"onclick="toggleAnswer(this)">
-              <h5>What does the Indrajaal research process involve?<span class="plus1">+</span></h5>
-            </header>
-            <div class="answer">
-              <p>We combine market research and prototyping to validate your concept, ensuring demonstrable business value and increasing overall speed-to-market.</p>
-              <p>The research process can take around 6 weeks and will help you develop a product with a competitive edge. We provide discovery workshops, feasibility studies and concept proofing to get everything in shape before the development begins.</p>
-            </div>
-          </article>
-
-          <article class="faq-item">
-            <header class="question"onclick="toggleAnswer(this)">
-              <h5>How can I optimize a web app for SEO?<span class="plus2">+</span></h5>
-            </header>
-            <div class="answer">
-              <p>The content you include on your web page plays a big part in search engine optimization. However, there are also technical aspects to consider, like the title attribute, alt attribute for images, subpages naming, domain and others.</p>
-              <p>A web application development company can assist with this by making your page speed faster, assigning proper title and meta tags and implementing a secure SSL certificate. Other ways to improve search ranking are using server-side rendering for single page apps and making use of Google Search Console.</p>
-              <p>Don't know where to start? Drop us a line and we can offer more guidance on SEO best practices.</p>
-            </div>
-          </article>
-
-          <article class="faq-item">
-            <header class="question" onclick="toggleAnswer(this)">
-              <h5>How to prepare before partnering with a web development company?<span class="plus3">+</span></h5>
-            </header>
-            <div class="answer">
-              <h6>1. Prepare a project description</h6>
-              <p>Define your idea, either by supplying the documentation for an existing project or putting together a brief for a new idea.</p>
-
-              <h6>2. Decide on a tech stack</h6>
-              <p>Do you need both front-end and back-end services? What web technologies have you chosen to build your app with? Web development companies have experiences with multiple languages and frameworks, so they can help you with this. Nevertheless, it's important to consider before starting a partnership.</p>
-
-              <h6>3. Define your budget</h6>
-              <p>The budget of your project will affect the team your web development company can put together, the project timeline and technologies used, among other things. Try to have a clear idea of how much you are allocating for your project. This will enable the development of a consistent project management strategy and avoid issues further on in the process.</p>
-            </div>
-          </article>
-
-          <article class="faq-item">
-            <header class="question"onclick=" toggleAnswer(this)">
-              <h5>How long does a web development project <br> take to complete from start to finish?<span class="plus4">+</span></h5>
-            </header>
-            <div class="answer">
-              <p>That depends on the type and complexity of your project. Weeks 1-2 involve planning and organization. This is followed by the graphic design phase, which can take another two weeks.</p>
-              <p>Then there's coding, development, testing, launch, and promotion/maintenance, so the process can be broken down into cycles, enabling you to keep track of the progress of your web application and manage the project timeline in more detail.</p>
-            </div>
-          </article>
-        </section>
+      </div>  
+    <div class="accordion-content">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What does the Indrajaal research process involve?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>We combine market research and prototyping to validate your concept, ensuring demonstrable business value and increasing overall speed-to-market.</p>
+            <p>The research process can take around 6 weeks and will help you develop a product with a competitive edge. We provide discovery workshops, feasibility studies and concept proofing to get everything in shape before the development begins.</p>
+          </div>
+        </div>
       </div>
-    </section>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How can I optimize a web app for SEO?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>The content you include on your web page plays a big part in search engine optimization. However, there are also technical aspects to consider, like the title attribute, alt attribute for images, subpages naming, domain and others.</p>
+            <p>A web application development company can assist with this by making your page speed faster, assigning proper title and meta tags and implementing a secure SSL certificate. Other ways to improve search ranking are using server-side rendering for single page apps and making use of Google Search Console.</p>
+            <p>Don't know where to start? Drop us a line and we can offer more guidance on SEO best practices.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            How to prepare before partnering with a web development company?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <h6>1. Prepare a project description</h6>
+            <p>Define your idea, either by supplying the documentation for an existing project or putting together a brief for a new idea.</p>
+
+            <h6>2. Decide on a tech stack</h6>
+            <p>Do you need both front-end and back-end services? What web technologies have you chosen to build your app with? Web development companies have experiences with multiple languages and frameworks, so they can help you with this. Nevertheless, it's important to consider before starting a partnership.</p>
+
+            <h6>3. Define your budget</h6>
+            <p>The budget of your project will affect the team your web development company can put together, the project timeline and technologies used, among other things. Try to have a clear idea of how much you are allocating for your project. This will enable the development of a consistent project management strategy and avoid issues further on in the process.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            How long does a web development project take to complete from start to finish?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>That depends on the type and complexity of your project. Weeks 1-2 involve planning and organization. This is followed by the graphic design phase, which can take another two weeks.</p>
+            <p>Then there's coding, development, testing, launch, and promotion/maintenance, so the process can be broken down into cycles, enabling you to keep track of the progress of your web application and manage the project timeline in more detail.</p>
+          </div>
+        </div>
+      </div>
+    </div>  
+
+    </div>
 
 
+<!-- Form section -->
     <section class="contract">
       <section class="section">
         <div class="section__container">
           <div class="content">
             <h2 class=" title"> Looking for <strong>web development services?</strong></h2>
           </div>
-          <div class="rich-text last-text">
+          <div class="last-text">
             <p>Before we start, we would like to better understand your needs.
                We'll review your application and schedule a free estimation call.</p>
           </div>
         </div>
       </section>
-
       <form>
         <div class="row mb-3">
             <div class="col-md-4">
@@ -391,16 +408,45 @@
     </section>
   </main>
 
-  <footer class="footer">
+<!-- Footer section -->
+  <footer id="target" class="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
               <img loading="lazy" class="web_logoimg" src="images/Indrajaal-Logo-blue.svg" alt="website-logo" width="100">
             </div>
             <div class="col-md-3">
-                <h5>About Us</h5>
-                <p>We design and build industry-leading web-based products that bring value to your customers, delivered with compelling UX.</p>
-            </div>
+              <h5>Follow Us</h5>
+              <ul class="list-inline footer-links">
+                  <li class="list-inline-item">
+                    <a href="#">
+                          <i class="fab fa-facebook"></i>
+                    </a>
+                    </li>
+                  <li class="list-inline-item">
+                    <a href="https://x.com/satyasaadhika">
+                          <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#">
+                          <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/in/satyasaadhika/">
+                          <i class="fab fa-linkedin"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a href="https://github.com/satyasaadhika">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                  </li>
+
+              </ul>
+          </div>
             <div class="col-md-3">
                 <h5>Contact Us</h5>
                 <ul class="list-unstyled">
@@ -409,40 +455,37 @@
                     <li><span>Address: </span> AbedkarNGR, Uttar Pradesh, India</li>
                 </ul>
             </div>
+
             <div class="col-md-3">
-                <h5>Follow Us</h5>
-                <ul class="list-inline footer-links">
-                    <li class="list-inline-item">
-                      <a href="#">
-                            <i class="fab fa-facebook"></i>
-                      </a>
-                      </li>
-                    <li class="list-inline-item">
-                      <a href="https://x.com/satyasaadhika">
-                            <i class="fab fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="#">
-                            <i class="fab fa-instagram"></i>
-                      </a>
-                    </li>
-                    <li class="list-inline-item">
-                      <a href="https://www.linkedin.com/in/satyasaadhika/">
-                            <i class="fab fa-linkedin"></i>
-                      </a>
-                    </li>
-
-                    <li class="list-inline-item">
-                      <a href="https://github.com/satyasaadhika">
-                        <i class="fa-brands fa-github"></i>
-                      </a>
-                    </li>
-
-                </ul>
-            </div>
+              <h5>About Us</h5>
+              <p>We design and build industry-leading web-based products that bring value to your customers, delivered with compelling UX.</p>
+          </div>
         </div>
-        <hr>
+        <hr><!-- 
+        <div class="company-logo">
+        <div class="col-md-3">
+          <img loading="lazy" class="web_logoimg1" src="images/b-corp.svg" alt="website-logo" width="50">
+        </div>
+        <div class="col-md-3">
+          <img loading="lazy" class="web_logoimg2" src="images/mendix.svg" alt="website-logo" width="100">
+        </div>
+        <div class="cm-logo">
+        <div class="col-md-3">
+          <img loading="lazy" class="web_logoimg3" src="images/tuv-nord.svg" alt="website-logo" width="60">
+        </div>
+        <div class="col-md-3">
+          <img loading="lazy" class="web_logoimg4" src="images/microsoft.svg" alt="website-logo" width="100">
+        </div>
+        <div class="col-md-3">
+          <img loading="lazy" class="web_logoimg5" src="images/google-cloud-partner.svg" alt="website-logo" width="60">
+        </div>
+        <div class="col-md-3">
+          <img loading="lazy" class="web_logoimg6" src="images/aws-partner.svg" alt="website-logo" width="60">
+        </div>
+      </div>
+      </div> -->
+
+
         <div class="row">
             <div class="col-md-6">
                 <p>&copy; 2024 Your Website. All rights reserved.</p>
