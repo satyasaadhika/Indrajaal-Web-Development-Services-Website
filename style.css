@@ -149,7 +149,7 @@ h2 strong {
 }
 
 .content h2 {
-  margin-left: 40px;
+  margin-left: 20px;
   color: #0b0c0b;
 }
 
@@ -453,5 +453,67 @@ b {
   margin-left: 85px;
   margin-top: 100px;
 }
+
+/* Frequently questions Section */
+.section{
+  background-color: #f2f5f7;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.feq h2{
+  margin-top: 100px;
+}
+.feq p{
+ margin-left: 20px;
+ font-size: 18px;
+ color: var(--text-light);
+ margin-top: 50px;
+ width: 500px;
+}
+.feq-content {
+  margin-right: 80px;
+}
+.feq-content .feq-item{
+  background-color: white;
+  padding-top: 50px;
+  padding:30px 10px 30px 20px;
+  border: 2px solid var(--primary-color);
+  margin-bottom: 60px;
+}
+
+.question h5{
+  color: black;
+  font-size: 18px;
+  font-weight:600;
+}
+.question span{ 
+  font-size: 1.80em;
+  font-weight: 500;
+}
+.plus1{
+margin-left: 180px;
+}
+.plus2{
+  margin-left: 265px;
+}
+.plus3{
+  margin-left: 18px;
+}
+.plus4{
+  margin-left: 285px;
+}
+.answer h6{
+  margin-top: 40px;
+  color: black;
+  font-weight: bold;
+  word-spacing: 0.70px;
+
+}
+.answer p{
+  color: var(--text-light);
+  margin-top: 40px;
+  font-size: 17px;
+}
+
 
 
