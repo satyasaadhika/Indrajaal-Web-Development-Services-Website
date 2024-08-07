@@ -528,7 +528,10 @@ form{
   background-color: #ecf2f6;
   border: none;
 }
-
+.col-md-4 img{
+  margin-left: 100px;
+  margin-top: 40px;
+}
 form .btn{
   background-color: var(--secondary-color);
   color: black;

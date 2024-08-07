@@ -48,11 +48,6 @@
     margin-left: 0px;
     width: 17em;
   }
-  .last-text{
-    width: 290px;
-    margin-left: 0px;
-    font-size: 17px;
-  }
   
   .read-link {
     margin-top: 40px;
@@ -60,7 +55,7 @@
   .right-text h2{
     font-size: 1.5em;
     margin-bottom: 50px;
-    width: 280px;
+    width: 100%;
   }
   .right-text .text{
     width: 300px;
@@ -78,7 +73,10 @@
     margin: 20px;
     margin-top: 100px;
   }
-  
+  .section__container .last-text {
+    margin-left:0px;
+    font-size: 18px;
+  }
   .content {
     min-width: unset !important;
   }
@@ -259,6 +257,13 @@
   form .btn{
    width: 100%;
   }
+  .col-md-4 input{
+    border: 1px solid rgb(217, 216, 216);
+  }
+
+  .col-md-4 label, .col-md-8 label{
+    margin-left: 20px;
+  }
 
 }
 
@@ -277,12 +282,14 @@
   }
   
   .big-paragraph {
-    width: 100%;
-    margin-left:0px;
+    width: 96%;
+    margin-left:10px;
     font-size: 17px;
+    word-spacing: 1px;
+    margin-right: 40px;
   }
   .last-text {
-    width: 600px;
+    width: 100%;
     margin-left: 20px;
     font-size: 19px;
     color: var(--text-light);
@@ -318,6 +325,12 @@
   .ADN-text .read-link {
     margin-left: 10px;
     margin-top: 40px;
+  }
+
+  .col-md-4 img{
+    margin-left: 0px;
+    margin-top: 0px;
+    display: none;
   }
 }
 
